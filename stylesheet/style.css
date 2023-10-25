@@ -1,0 +1,7 @@
+@import url(reset.css);
+@import url(layout.css);
+
+@font-face {
+  font-family: "Yeseva One";
+  src: URL(/font/YesevaOne-Regular.ttf);
+}
