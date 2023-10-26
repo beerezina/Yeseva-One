@@ -937,11 +937,12 @@ h5 {
 
 #flower {
   position: absolute;
+  width: 797px;
+  height: 1046px;
+  margin-left: 506px;
+  margin-top: -118px;
 }
-#flower img {
-  margin-left: 530px;
-  margin-top: -96px;
-}
+
 #card {
   display: flex;
   flex-direction: column;
