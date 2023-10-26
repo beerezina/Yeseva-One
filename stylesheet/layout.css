@@ -2,9 +2,10 @@ body {
   font-family: "Yeseva One";
   background-color: #3b3166;
   width: 1440px;
-  height: 9000px;
+  height: 8942px;
   display: block;
   margin: 0 auto;
+  border: #000 2px solid;
 }
 
 .facade {
@@ -743,7 +744,7 @@ h5 {
 }
 
 .pay_and_flower {
-  height: 1344.5px;
+  height: 1243.5px;
   width: 100%;
 }
 #terminal {
@@ -826,10 +827,6 @@ h5 {
   justify-content: flex-start;
   align-items: flex-start;
 }
-/* .check_mark img {
-    margin: 67px 0 0 35px;
-  }
-  .check_mark */
 
 .terminal_screen img {
   margin: 67px 0 0 35px;
