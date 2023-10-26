@@ -1004,6 +1004,7 @@ h5 {
 }
 #in_end {
   display: flex;
+  margin-top: 152px;
 }
 #in_end p {
   width: 383px;
