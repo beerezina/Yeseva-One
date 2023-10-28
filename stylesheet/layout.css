@@ -38,17 +38,16 @@ body {
   width: 925px;
 }
 #name h1 {
-  font-family: Yeseva One;
   color: #3b3166;
   margin-left: 227px;
-  font-size: 81.473px;
+  font-size: 81px;
   line-height: normal;
   margin-top: 158px;
 }
 #name h2 {
   color: #3b3166;
   margin-left: 225px;
-  font-size: 42.893px;
+  font-size: 43px;
   line-height: normal;
   height: 50px;
   margin-top: 106px;
@@ -96,7 +95,7 @@ body {
   position: absolute;
   margin-left: 687px;
   width: 754px;
-  height: 882.644px;
+  height: 883px;
 }
 
 .monitor {
@@ -178,7 +177,7 @@ h5 {
 }
 #text p {
   color: #3b3166;
-  font-size: 14.723px;
+  font-size: 15px;
   line-height: normal;
   margin-left: 21px;
   margin-top: 23px;
@@ -216,15 +215,6 @@ h5 {
   margin-left: 10px;
 }
 .right {
-  /* margin-top: 36px;
-  
-    width: 118.51px;
-    margin-top: 21.5px;
-    height: 355.271px;
-    display: flex;
-    align-items: end;
-    flex-direction: column; */
-
   display: flex;
   flex-direction: column;
   width: 121px;
@@ -237,7 +227,6 @@ h5 {
 }
 
 #pink_cream {
-  /* background-image: url(images/one_square.svg); */
   background-color: white;
   width: 119px;
   height: 119px;
@@ -250,7 +239,6 @@ h5 {
 #green_cream {
   width: 119px;
   height: 119px;
-  /* background-image: url(images/two_square.svg); */
   background-color: white;
 }
 #green_cream img {
@@ -261,7 +249,6 @@ h5 {
   background-color: white;
   width: 119px;
   height: 113px;
-  /* margin-left: 1px; */
   margin-bottom: 1px;
 }
 #blue_cream img {
@@ -277,14 +264,6 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
-/* #sigh {
-    width: 542px;
-    height: 256px;
-  
-    border-radius: 33px;
-    border: 3px solid #ceb4e2;
-  
-    background: #faf4ff; */
 
 #sigh h2 {
   color: #3b3166;
@@ -363,7 +342,6 @@ h5 {
   position: absolute;
   border-bottom: 2px solid #3b3166;
   margin-top: -8px;
-  /* text-align: center; */
   margin-left: 54px;
 }
 .polishtext h4::after {
@@ -374,7 +352,6 @@ h5 {
   position: absolute;
   border-bottom: 2px solid #3b3166;
   margin-top: 10px;
-  /* text-align: center; */
   margin-left: 54px;
 }
 #language h5 {
@@ -398,13 +375,13 @@ h5 {
   margin: 146px 386px;
 }
 #top_palette {
-  width: 1391.25px;
-  height: 384.44px;
+  width: 1391px;
+  height: 384px;
   background-image: url(../images/Vector.svg);
 }
 #bottom_palette {
   width: 1393px;
-  height: 384.442px;
+  height: 385px;
   margin-top: -2px;
   background-image: url(../images/bottom_palette.svg);
   display: flex;
@@ -422,7 +399,7 @@ h5 {
 .text_shadows h6 {
   color: #3b3166;
   text-align: center;
-  font-size: 29.741px;
+  font-size: 30px;
   line-height: normal;
   width: 200px;
   height: 108px;
@@ -439,8 +416,8 @@ h5 {
   margin-bottom: 69px;
 }
 #title_in_box {
-  width: 1150.33px;
-  height: 204.43px;
+  width: 1150px;
+  height: 205px;
   margin-left: 47px;
   background-image: url(../images/box_for_title1.svg);
 }
@@ -463,13 +440,13 @@ h5 {
 }
 #box_blush {
   width: 553px;
-  height: 547.622px;
+  height: 548px;
   background-image: url(../images/blush_box.svg);
   margin-right: 17px;
 }
 #box_highlighter {
-  width: 597.417px;
-  height: 591.807px;
+  width: 598px;
+  height: 592px;
   background-image: url(../images/high_box.svg);
 }
 #box_blush img {
@@ -571,7 +548,7 @@ h5 {
 }
 
 .mask {
-  height: 1506.5px;
+  height: 1506px;
   width: 100%;
   margin-bottom: 74px;
 }
@@ -602,7 +579,7 @@ h5 {
   display: flex;
   flex-direction: column;
   z-index: 1;
-  width: 509.064px;
+  width: 509px;
   height: 651.434px;
   background-image: url(../images/back_for_green.svg);
   position: absolute;
@@ -615,8 +592,8 @@ h5 {
   display: flex;
   flex-direction: column;
   z-index: 2;
-  width: 570.835px;
-  height: 730.484px;
+  width: 570px;
+  height: 730px;
   background-image: url(../images/back_for_blue.svg);
   position: absolute;
   margin-left: 377px;
@@ -643,8 +620,8 @@ h5 {
   display: flex;
   flex-direction: column;
   z-index: 4;
-  width: 467.084px;
-  height: 597.716px;
+  width: 467px;
+  height: 598px;
   background-image: url(../images/back_for_yellow.svg);
   position: absolute;
   border: #3b3166 solid 2px;
@@ -657,8 +634,8 @@ h5 {
   display: flex;
   flex-direction: column;
   z-index: 5;
-  width: 478.762px;
-  height: 612.659px;
+  width: 479px;
+  height: 613px;
   background-image: url(../images/back_for_red.svg);
   position: absolute;
   border: #3b3166 solid 2px;
@@ -669,7 +646,7 @@ h5 {
 #green_mask h4 {
   color: #3b3166;
 
-  font-size: 45.728px;
+  font-size: 46px;
   font-style: normal;
   line-height: normal;
   margin: 45px 0 0 24px;
@@ -685,14 +662,14 @@ h5 {
 #blue_mask h3 {
   color: #3b3166;
 
-  font-size: 51.277px;
+  font-size: 51px;
   font-style: normal;
   line-height: normal;
   margin: 51px 0 0 28px;
 }
 #blue_mask img {
-  width: 437.85px;
-  height: 501.39px;
+  width: 438px;
+  height: 501px;
   margin-left: 62px;
   margin-top: 61px;
 }
@@ -700,7 +677,7 @@ h5 {
 #pink_mask h2 {
   color: #3b3166;
 
-  font-size: 57.156px;
+  font-size: 57px;
   font-style: normal;
   line-height: normal;
   margin: 58px 0 0 21px;
@@ -715,7 +692,7 @@ h5 {
 #yellow_mask h5 {
   color: #3b3166;
 
-  font-size: 41.957px;
+  font-size: 42px;
   font-style: normal;
   line-height: normal;
   margin: 42px 0 0 23px;
@@ -730,7 +707,7 @@ h5 {
 #red_mask h6 {
   color: #3b3166;
 
-  font-size: 43.006px;
+  font-size: 43px;
   font-style: normal;
   line-height: normal;
   margin: 43px 0 0 23px;
@@ -744,12 +721,12 @@ h5 {
 }
 
 .pay_and_flower {
-  height: 1243.5px;
+  height: 1243px;
   width: 100%;
 }
 #terminal {
-  width: 547.89px;
-  height: 1116.804px;
+  width: 548px;
+  height: 1117px;
   background-image: url(../images/terminal.svg);
   margin-top: 148px;
   margin-left: 91px;
@@ -757,8 +734,8 @@ h5 {
   flex-direction: column;
 }
 .check {
-  width: 301.104px;
-  height: 192.47px;
+  width: 301px;
+  height: 192px;
   border: 2px solid #000;
   background: #faf4ff;
   margin-left: 121px;
@@ -768,7 +745,7 @@ h5 {
   width: 100%;
   color: #3b3166;
   text-align: center;
-  font-size: 22.621px;
+  font-size: 23px;
   line-height: normal;
   margin-top: 10px;
 }
@@ -780,10 +757,10 @@ h5 {
   margin-left: 16px;
 }
 .position h2 {
-  margin-top: 4.5px;
+  margin-top: 5px;
   color: #3b3166;
 
-  font-size: 15.35px;
+  font-size: 15px;
   line-height: normal;
 }
 .price {
@@ -794,17 +771,17 @@ h5 {
   margin-top: 4px;
   color: #3b3166;
 
-  font-size: 12.373px;
+  font-size: 12px;
   line-height: normal;
 }
 .result_check {
   display: flex;
-  margin-top: 17.7px;
+  margin-top: 18px;
 }
 .result_check h1 {
   color: #3b3166;
 
-  font-size: 28.791px;
+  font-size: 29px;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -815,15 +792,14 @@ h5 {
   margin-left: 42px;
 }
 .terminal_screen {
-  width: 301.104px;
-  height: 245.817px;
+  width: 301px;
+  height: 246px;
   border: 2px solid #000;
   background: #ceb4e2;
   margin-left: 121px;
   margin-top: 33px;
   display: flex;
   flex-direction: row;
-
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -834,9 +810,8 @@ h5 {
 .terminal_screen h4 {
   margin: 108px 0 0 17px;
   color: #3b3166;
-
   text-align: center;
-  font-size: 22.621px;
+  font-size: 23px;
   line-height: normal;
 }
 .buttons {
@@ -846,14 +821,14 @@ h5 {
 }
 
 .number_buttons {
-  width: 431.4px;
-  height: 463.959px;
+  width: 431px;
+  height: 464px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 
   margin-top: 63px;
-  margin-left: 52.5px;
+  margin-left: 53px;
 }
 
 .number_buttons p {
@@ -861,10 +836,10 @@ h5 {
 
   font-size: 51px;
   line-height: normal;
-  width: 87.908px;
-  height: 61.861px;
+  width: 88px;
+  height: 62px;
 
-  border-radius: 13.023px;
+  border-radius: 13px;
   border: 2px solid #000;
   background: #faf4ff;
 }
@@ -873,10 +848,10 @@ h5 {
 
   font-size: 25px;
   line-height: normal;
-  width: 87.908px;
-  height: 61.861px;
+  width: 88px;
+  height: 62px;
 
-  border-radius: 13.023px;
+  border-radius: 13px;
   border: 2px solid #000;
   background: #df85ab;
 }
@@ -888,10 +863,10 @@ h5 {
 
   font-size: 25px;
   line-height: normal;
-  width: 87.908px;
-  height: 61.861px;
+  width: 88px;
+  height: 62px;
 
-  border-radius: 13.023px;
+  border-radius: 13px;
   border: 2px solid #000;
   background: #eac009;
 }
@@ -903,10 +878,10 @@ h5 {
 
   font-size: 25px;
   line-height: normal;
-  width: 87.908px;
-  height: 61.861px;
+  width: 88px;
+  height: 62px;
 
-  border-radius: 13.023px;
+  border-radius: 13px;
   border: 2px solid #000;
   background: #7dbab2;
 }
@@ -959,7 +934,7 @@ h5 {
   margin-left: 225px;
   margin-top: 6.5px;
   text-align: left;
-  font-size: 45.319px;
+  font-size: 45px;
   line-height: normal;
 }
 #card_line {
@@ -967,25 +942,25 @@ h5 {
   height: 32px;
   border: 2px solid #000;
   background-color: #ceb4e2;
-  margin-left: -2px;
+  margin-left: -1.8px;
   margin-top: 30px;
 }
 #line_card_2 {
   display: flex;
   flex-direction: row;
-  height: 43.369px;
-  width: 497.3px;
+  height: 43px;
+  width: 497px;
   margin-top: 14px;
 }
 #left {
-  width: 405.499px;
-  height: 43.369px;
+  width: 406px;
+  height: 43px;
   background-color: #3b3166;
   margin-left: 13px;
 }
 #right {
-  width: 47.706px;
-  height: 44.814px;
+  width: 48px;
+  height: 45px;
   background-color: #3b3166;
   margin-left: 18px;
 }
@@ -993,7 +968,7 @@ h5 {
   width: 255px;
   color: #3b3166;
 
-  font-size: 22.576px;
+  font-size: 22px;
   line-height: normal;
   margin: 37px 0 0 17px;
 }
@@ -1007,16 +982,16 @@ h5 {
   margin-top: 152px;
 }
 #in_end p {
-  width: 383px;
+  width: 400px;
   height: 96px;
   color: #3b3166;
   margin: 95px 0 88px 96px;
   font-family: Yeseva One;
-  font-size: 41.914px;
+  font-size: 42px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 #in_end img {
-  margin: 64px 88px 64px 502px;
+  margin: 64px 96px 64px 470px;
 }
