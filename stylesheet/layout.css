@@ -19,8 +19,11 @@ body {
 }
 
 #cosmetics {
+  display: flex;
+  flex-direction: column;
   height: 923px;
   width: 262px;
+  align-items: center;
 }
 #cosmetics h3 {
   color: #3b3166;
@@ -28,9 +31,10 @@ body {
   margin-top: 304px;
   text-align: center;
 }
-#cosmetics p {
-  text-align: center;
-  margin-top: 212px;
+#cosmetics img {
+  width: 124px;
+  height: 334px;
+  margin-top: 214px;
 }
 
 #name {
@@ -54,8 +58,11 @@ body {
 }
 
 #perfume {
+  flex-direction: column;
+  align-items: center;
   height: 923px;
   width: 272px;
+  display: flex;
 }
 #perfume h3 {
   color: #3b3166;
@@ -63,8 +70,9 @@ body {
   margin-top: 304px;
   text-align: center;
 }
-#perfume p {
-  text-align: center;
+#perfume img {
+  width: 124px;
+  height: 269px;
   margin-top: 276px;
 }
 
@@ -72,66 +80,60 @@ body {
   background-image: url(../images/computer_table_back.svg);
   width: 100%;
   height: 1086px;
+  position: relative;
 }
 
 .table > img {
   width: 886px;
   height: 738px;
   transform: rotate(0.532deg);
-  margin-top: 18px;
   position: absolute;
+  top: 25px;
+  left: -4px;
 }
 
 .table > p > img {
   position: absolute;
-  margin-top: 475px;
-  margin-left: 27px;
+  top: 475px;
+  left: 27px;
   width: 651px;
   height: 599px;
 }
 
 .computer > img {
   position: absolute;
-  margin-left: 687px;
+  left: 687px;
   width: 754px;
   height: 883px;
 }
 
 .monitor {
   position: absolute;
-  width: 495px;
-  height: 393px;
+  left: 836px;
   background-color: #3b3166;
-  margin-left: 836px;
-  margin-top: 46px;
+  top: 48px;
+  width: 498px;
+  height: 393px;
   display: flex;
-
-  border: 2px solid;
+  flex-direction: column;
+  border: 2px #3b3166 solid;
 }
 .search {
-  position: absolute;
   height: 36px;
   width: 100%;
   background-image: url(../images/string.svg);
 }
-h5 {
+.computer h5 {
   color: #3b3166;
   font-size: 12.857px;
   line-height: normal;
   margin: 12px 185px 10px 213px;
 }
 #all_screen {
-  width: 495px;
-  height: 393px;
   display: flex;
-  align-content: flex-start;
-  flex-wrap: nowrap;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
 }
 .left {
-  margin-top: 36px;
   width: 374px;
   height: 357px;
   display: flex;
@@ -190,8 +192,6 @@ h5 {
 
 .portrait_and_text {
   display: flex;
-  width: 374px;
-  height: 151px;
   background-color: white;
 }
 #portrait {
@@ -216,28 +216,30 @@ h5 {
 .right {
   display: flex;
   flex-direction: column;
-  width: 121px;
+  width: 147px;
   height: 357px;
   align-content: center;
-  margin-top: 38px;
+  margin-top: 1px;
   justify-content: space-between;
   align-items: center;
-  margin-left: 1px;
 }
 
 #pink_cream {
   background-color: white;
-  width: 119px;
   height: 119px;
   margin-top: 1px;
+  margin-left: 1px;
+  width: 122px;
+  margin-left: 2px;
 }
 #pink_cream img {
   margin-left: 37px;
   margin-top: 11px;
 }
 #green_cream {
-  width: 119px;
   height: 119px;
+  width: 122px;
+  margin-left: 2px;
   background-color: white;
 }
 #green_cream img {
@@ -246,8 +248,9 @@ h5 {
 }
 #blue_cream {
   background-color: white;
-  width: 119px;
   height: 113px;
+  width: 122px;
+  margin-left: 2px;
   margin-bottom: 1px;
 }
 #blue_cream img {
@@ -263,7 +266,9 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
-
+#sigh {
+  z-index: 1;
+}
 #sigh h2 {
   color: #3b3166;
 
@@ -278,22 +283,22 @@ h5 {
   line-height: normal;
   text-transform: uppercase;
 }
-#under img {
-  position: absolute;
-  margin: 131px 449px;
-}
-#sigh {
-  z-index: 1;
-}
 #under {
   z-index: 0;
+  position: relative;
 }
+#under img {
+  position: absolute;
+  top: 131px;
+  left: 449px;
+}
+
 .nailpolish {
   display: flex;
   flex-direction: column;
   height: 922px;
   width: 100%;
-  margin-bottom: 115px;
+  margin-bottom: 138px;
 }
 #range {
   height: 147px;
@@ -309,31 +314,26 @@ h5 {
 }
 .polish {
   margin-top: 39px;
+
   width: 1440px;
-  height: 548px;
+  height: 587px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.polishtext {
-  position: absolute;
-  display: flex;
-  width: 1240px;
-  height: 68px;
-  margin-top: 570px;
+.polish h4 {
+  margin-top: 390px;
   justify-content: space-around;
   align-items: center;
-  margin-left: 100px;
-}
-.polishtext h4 {
   text-align: center;
   font-size: 47px;
   line-height: normal;
   color: #3b3166;
-  width: 252px;
   height: 54px;
+  position: relative;
 }
-.polishtext h4::before {
+
+.polish h4::before {
   content: "";
   display: block;
   width: 143px;
@@ -343,7 +343,7 @@ h5 {
   margin-top: -8px;
   margin-left: 54px;
 }
-.polishtext h4::after {
+.polish h4::after {
   content: "";
   display: block;
   width: 143px;
@@ -353,7 +353,52 @@ h5 {
   margin-top: 10px;
   margin-left: 54px;
 }
+
+.border_pink_polish {
+  margin-top: 39px;
+  width: 78px;
+  height: 548px;
+  background-image: url(../images/border_pink_polish.svg);
+}
+.red_polish {
+  width: 231px;
+  margin-top: 39px;
+  height: 548px;
+  background-image: url(../images/polish_red1.svg);
+}
+.yellow_polish {
+  width: 231px;
+  margin-top: 39px;
+  height: 548px;
+  background-image: url(../images/polish_yellow2.svg);
+}
+.green_polish {
+  width: 231px;
+  margin-top: 39px;
+  height: 548px;
+  background-image: url(../images/polish_green3.svg);
+}
+.blue_polish {
+  width: 231px;
+  margin-top: 39px;
+  height: 548px;
+  background-image: url(../images/polish_blue4.svg);
+}
+.pink_polish {
+  width: 231px;
+  margin-top: 39px;
+  height: 548px;
+  background-image: url(../images/polish_pink5.svg);
+}
+.border_red_polish {
+  margin-top: 39px;
+  width: 78px;
+  height: 548px;
+  background-image: url(../images/border_red_polish.svg);
+}
+
 #language h5 {
+  margin: 12px 185px 10px 213px;
   color: #faf4ff;
   text-align: center;
   font-size: 51px;
@@ -435,13 +480,23 @@ h5 {
   height: 592px;
   margin-left: 42px;
   margin-top: 21px;
-  position: absolute;
 }
-#box_blush {
+.first_box {
+  margin-right: 17px;
   width: 553px;
   height: 548px;
+  position: relative;
+}
+#box_blush {
+  height: 550px;
+  width: 555px;
   background-image: url(../images/blush_box.svg);
-  margin-right: 17px;
+}
+#blush {
+  position: absolute;
+}
+.second_box {
+  position: relative;
 }
 #box_highlighter {
   width: 598px;
@@ -453,7 +508,6 @@ h5 {
   height: 471px;
   margin-top: 42px;
   margin-left: 35px;
-  position: relative;
 }
 
 #box_highlighter img {
@@ -464,92 +518,91 @@ h5 {
   position: relative;
 }
 
-#ligature {
+#ligature img {
+  left: 65px;
+  top: 56px;
   z-index: 2;
   position: absolute;
 }
-#ligature img {
-  margin-left: 65px;
-  margin-top: 56px;
-}
-#fraction {
+#fraction img {
   position: absolute;
-  margin-top: 41px;
-  margin-left: 669px;
+  top: 41px;
+  left: 92px;
 }
 #blush {
   position: absolute;
-  margin-top: 65px;
-  margin-left: 26px;
+  top: 65px;
+  left: 26px;
 }
-#red_star {
+#red_star img {
   position: absolute;
-  margin-top: 196px;
-  margin-left: 976px;
+  top: 200px;
+  left: 407px;
 }
 
-#yellow_star {
+#yellow_star img {
   z-index: 6;
   position: absolute;
-  margin-top: 180px;
-  margin-left: 790px;
+  top: 180px;
+  left: 221px;
 }
 
-#green_star {
+#green_star img {
   z-index: 5;
   position: absolute;
-  margin-top: 255px;
-  margin-left: 742px;
+  top: 263px;
+  left: 174px;
 }
 
-#blue_star {
+#blue_star img {
   z-index: 4;
   position: absolute;
-  margin-top: 435px;
-  margin-left: 774px;
+  top: 435px;
+  left: 203px;
 }
 
-#pink_star {
+#pink_star img {
   z-index: 3;
   position: absolute;
-  margin-top: 378px;
-  margin-left: 973px;
+  top: 378px;
+  left: 399px;
 }
 
-#white_star {
+#white_star img {
   z-index: 1;
   position: absolute;
 
-  margin-top: 217px;
-  margin-left: 784px;
+  top: 217px;
+  left: 211px;
 }
 
-#black_star {
+#black_star img {
   z-index: 0;
   position: absolute;
 
-  margin-top: 175px;
-  margin-left: 748px;
+  top: 175px;
+  left: 177px;
 }
 
-#number {
+#number img {
   z-index: 2;
   position: absolute;
-  margin-top: 293px;
-  margin-left: 856px;
+  top: 293px;
+  left: 278px;
 }
 
 #lid {
   z-index: 6;
   position: absolute;
-  margin-top: -68px;
-  margin-left: 915px;
+  top: -68px;
+  left: 345px;
 }
 
 .mask {
   height: 1506px;
   width: 100%;
   margin-bottom: 74px;
+  position: relative;
 }
 
 #title_in_mask {
@@ -570,7 +623,7 @@ h5 {
   text-transform: uppercase;
 }
 .mask_collection {
-  position: absolute;
+  position: relative;
   width: 1440px;
   height: 1259px;
 }
@@ -582,7 +635,7 @@ h5 {
   height: 651.434px;
   background-image: url(../images/back_for_green.svg);
   position: absolute;
-  margin-top: 118px;
+  top: 118px;
   border: #3b3166 solid 2px;
   border-radius: 37px;
 }
@@ -595,8 +648,8 @@ h5 {
   height: 730px;
   background-image: url(../images/back_for_blue.svg);
   position: absolute;
-  margin-left: 377px;
-  margin-top: 21px;
+  left: 377px;
+  top: 21px;
   border: #3b3166 solid 2px;
   border-radius: 37px;
 }
@@ -609,8 +662,8 @@ h5 {
   height: 814px;
   background-image: url(../images/back_for_pink.svg);
   position: absolute;
-  margin-left: 820px;
-  margin-top: -84px;
+  left: 820px;
+  top: -84px;
   border: #3b3166 solid 2px;
   border-radius: 37px;
 }
@@ -625,8 +678,8 @@ h5 {
   position: absolute;
   border: #3b3166 solid 2px;
   border-radius: 37px;
-
-  margin: 595px 0 0 126px;
+  top: 595px;
+  left: 126px;
 }
 
 #red_mask {
@@ -639,7 +692,8 @@ h5 {
   position: absolute;
   border: #3b3166 solid 2px;
   border-radius: 37px;
-  margin: 650px 0 0 541px;
+  top: 650px;
+  left: 541px;
 }
 
 #green_mask h4 {
@@ -911,8 +965,8 @@ h5 {
   position: absolute;
   width: 797px;
   height: 1046px;
-  margin-left: 506px;
-  margin-top: -118px;
+  left: 589px;
+  top: -118px;
 }
 
 #card {
@@ -923,10 +977,9 @@ h5 {
   border-radius: 18px;
   background: #faf4ff;
   position: absolute;
-  margin-top: 854px;
   border: 2px solid #000;
-  margin-left: 593px;
-  margin-top: 772px;
+  left: 673px;
+  top: 772px;
 }
 #card_name h1 {
   color: #3b3166;
@@ -947,8 +1000,8 @@ h5 {
 #line_card_2 {
   display: flex;
   flex-direction: row;
-  height: 43px;
-  width: 497px;
+  height: 166px;
+  width: 759px;
   margin-top: 14px;
 }
 #left {
@@ -969,7 +1022,7 @@ h5 {
 
   font-size: 22px;
   line-height: normal;
-  margin: 37px 0 0 17px;
+  margin: -87px 0 0 17px;
 }
 .end {
   width: 100%;
@@ -992,4 +1045,11 @@ h5 {
 }
 #in_end img {
   margin: 64px 96px 64px 470px;
+}
+
+.absolute {
+  position: relative;
+}
+.relative {
+  position: relative;
 }
